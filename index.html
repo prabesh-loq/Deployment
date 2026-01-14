@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabesh Raut - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER - Navigation bar -->
+    <header>
+        <nav>
+            <!-- Logo section (Left side)-->
+            <div class="logo">
+                <img src="1.jpg" alt="Your Name">
+                <span>Prabesh Raut</span>
+            </div>
+
+        <!-- Anmated greetings before the main page-->
+        <div class="splash-screen">
+           <div class="greeting-container">
+
+            <!-- Every greetings appers with CSS animation for some seconds sequentially-->
+            <span class="greeting greeting-1">नमस्ते</span> <!--Nepali-->
+            <span class="greeting greeting-2">Hello</span> <!--English-->
+            <span class="greeting greeting-3">こんにちは</span><!--Japanese-->
+            <span class="greeting greeting-4">你好</span> <!--Chinese-->
+            <span class="greeting greeting-5">Bonjour</span> <!--French-->
+            <span class="greeting greeting-6">Hola</span> <!--Spanish-->
+            </div>
+        </div>
+            <!-- Desktop Navigation = Takes user to the page they choose -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+            </ul>
+            
+            <!-- Hamburger Menu (Mobile) 
+             It uses checkbox hack for toggle without using java script -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </nav>
+    </header>
+     
+    <!-- Main content of the page including different sections-->
+    <main>
+
+        <!--Hero section, it is the main introduction area of page-->
+        <section class="hero">
+            <div class="profile-image">
+                <img src="1.jpg" alt="Your Name">
+            </div>
+            
+            <div class="greeting">
+                <span class="wave-emoji">👋</span>
+                <span>Hi Everyone!</span>
+            </div>
+            
+            <h1>I'm a <span class="highlight">Learner </span>,Exploring tech and innovation crafting meaningful experiences with code.</h1>
+            
+            <p class="subtitle">I specialize in creating innovative tech solutions and best practices.</p>
+        </section>
+
+     <!--HOBBIES section, This section dislays my personal interests with images-->
+     <section class="hobbies">
+        <h2>My Hobbies & Interests</h2>
+
+        <!-- Grid of hobby cards (4 Card), Uses CSS element flexbox for horizontal layout-->
+        <div class="hobby-grid">
+
+            <!--Hobby card 1:Hiking-->
+         <div class="hobby-card">
+            <img src="7.jpg" alt="Hiking">
+            <h3>Hiking</h3>
+        </div>
+
+        <!--Hobby card 2:Hackathon-->
+        <div class="hobby-card">
+            <img src="2.jpg" alt="Tech">
+            <h3>Hackahton</h3>
+        </div>
+
+        <!--Hobby card 3:Sports-->
+        <div class="hobby-card">
+            <img src="3.jpg" alt="Sports">
+            <h3>Sports</h3>
+        </div>
+
+        <!--Hobby card 4:Design-->
+        <div class="hobby-card">
+            <img src="11.jpg" alt="Design">
+            <h3>Design</h3>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy;2026 Prabesh Raut. All rights reserved.</p>
+    </footer>
+</body>
+</html>

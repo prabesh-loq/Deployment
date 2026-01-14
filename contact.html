@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Prabesh Raut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navogation Bar-->
+    <header>
+        <nav> <!-- Logo of the portfolio-->
+            <div class="logo">
+                <img src="1.jpg" alt=" Name">
+                <span>Prabesh Raut</span>
+            </div>
+
+            <!-- Desktop Navigation links, takes users to the page they want to go-->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+            </ul>
+            
+            <!--MobilE Hamburger Menu toggle-->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </nav>
+    </header>
+
+    <!--Main content of the page,, includes cintact information and submission form-->
+    <main>
+    <section class="contact-section">
+        <h1>Good ideas deserves great mind</h1>
+        
+        <!--Page layout of two colums i.e Contact information and Form-->
+        <div class="contact-content-wrapper">
+
+            <!--Left column:Contact Information Cards-->
+            <div class="contact-container">
+
+                <!--Contact Card 1: Random hook line -->
+                <div class="contact-item" style="animation-delay: 0.3s;">
+                    <img src="1.jpg" alt="Profile" class="contact-avatar">
+                    <p>Want to work together and make cool shit?</p>
+                </div>
+                
+                <!--Contact Card 2: my personal user email-->
+                <div class="contact-item" style="animation-delay: 0.8s;">
+                    <img src="1.jpg" alt="Profile" class="contact-avatar">
+                    <p>Mail me at: <a href="mailto:stalinpraa4@gmail.com">stalinpraa4@gmail.com</a></p>
+                    <span class="icon">✉️</span>
+                </div>
+
+                <!--Contact card 3: My personal contact information, Phone Number-->
+                <div class="contact-item" style="animation-delay: 1.3s;">
+                    <img src="1.jpg" alt="Profile" class="contact-avatar">
+                    <p>For extroverts: <a href="tel:+9779864108886">+977 9864108886</a></p>
+                </div>
+                
+                <!--Contact card 4: Gaming IDs-->
+                <div class="contact-item" style="animation-delay: 1.8s;">
+                    <img src="1.jpg" alt="Profile" class="contact-avatar">
+                    <p>Wanna play games?&#127918;,Riot id= masukoachar,Steam= suiii67</p>
+                </div>
+            </div>
+
+            <!--Right column: Contact Form-->
+            <div class="contact-form-container" style="animation-delay: 2.3s;">
+                <h2>Serious ideas welcome. Great ones encouraged</h2>
+
+                <!--The following form open user's email client on submit-->
+                <form action="mailto:stalinpraa4@gmail.com" method="post" enctype="text/plain">
+
+                    <!--Name section, user will input there name-->
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <!--Email section, user will input there email-->
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <!--Message section, user will input there message-->
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <!--Submit button-->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            
+        </div>
+        
+    </section>
+</main>
+
+    <footer>
+       <p>&copy;2026 Prabesh Raut. All rights reserved</p>
+    </footer>
+</body>
+</html>
